@@ -24,6 +24,13 @@ Just include `chef-git-trash-branch` in your node's `run_list`:
 }
 ```
 
+#### chef-apply
+
+```sh
+git clone git@github.com:bigwheel/chef-git-trash-branch.git /tmp/chef-git-trash-branch && sudo chef-apply /tmp/chef-git-trash-branch/recipes/default.rb
+```
+
+
 License and Authors
 -------------------
 Authors: bigwheel
